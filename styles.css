@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to bottom right, #d2e5f9, #FAFCFF);
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+  .heading{
+    font-size: large;
+    font-weight: bolder;
+    font-size:85px;
+    text-align: center;
+  }
+  
+
+.card{
+    width: 350px;
+    margin: 5%;
+    border-radius: 2em;
+    border-top-right-radius: 10em;
+    box-shadow: 0px 0px 15px #b3b2b2;
+}
+
+.card-image{
+    width: 100%;
+    max-height: 20%;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+.card-info-container{
+    padding: 2em 1em 2em;
+}
+
+.card-info-heading{
+    font-size: 1.5em;
+    color: #181818;
+}
+
+.card-info-para{
+    color: #666666;
+    font-size: 0.9em;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.btn{
+    background-color: #FFEB3B;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: #6e6301;
+    height: 60px;
+    border-radius: 3em;
+    padding: 1em 2em;
+    font-size: .7em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.dish-type{
+    color: green;
+    position: relative;
+    top: 5px;
+}
+
+.card-stats-container{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats-heading{
+    font-size: 1em;
+    color: #8e8e8e;
+    margin-bottom: .7em;
+}
+
+.stats-para{
+    font-size: 1.5em;
+    font-weight: bold;
+}
